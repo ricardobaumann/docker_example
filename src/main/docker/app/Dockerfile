@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Kate Smith <ksmith@example.com>
-RUN apt-get update && apt-get install -y ruby ruby-dev
-RUN gem install sinatra
+MAINTAINER Ricardo Baumann <ricardo.luis.baumann@gmail.com>
+RUN mkdir teste
+RUN cd teste
+RUN touch file.txt
